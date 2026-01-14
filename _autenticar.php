@@ -9,7 +9,7 @@
 
     }else{
 
-        header('Location:index.php');
+        header('Location:_chat.php');
 
     }
 

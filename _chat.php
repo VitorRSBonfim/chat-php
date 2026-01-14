@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
     <title>PurpleBase</title>
 
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -24,23 +25,6 @@
     <div class="container-fluid" style="overflow-x: hidden;">
 
         <div class="row p-0">
-
-            <!--
-            <div class=" col-1 Menu">
-
-                /*
-
-                <?php
-
-                    include_once 'Menu.php';
-
-                ?>
-
-                */
-
-            </div>
-            
-            -->
 
             <div class="col-sm-11 p-0">
 

@@ -316,11 +316,21 @@ function buscarMensagens() {
 
             // 
 
+            let temp = 0;
+
+            
+
             
 
             setInterval(() => {
 
-                
+
+                if (chat.scrollHeight > 0 & temp == 0) {
+                    console.log("HAS SCROLL ACTVATE")
+                    chat.scrollTop = chat.scrollHeight
+                    temp = 1
+                    console.log("TEMP ACT" + temp)
+                } 
                 
                 $.ajax({
                     type: "POST",
