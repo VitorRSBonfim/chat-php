@@ -1,0 +1,241 @@
+* {
+
+    margin: 0;
+    border: 0;
+    
+}
+
+.header{
+
+
+    background-color: #562579;
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+
+}
+
+.HeaderHome{
+
+    height: 100%; 
+    display: flex; 
+    align-items: center;
+
+}
+
+.HeaderHome button{
+
+    margin-left: 15px;
+
+}
+
+.logo{
+
+    text-align: center;
+    padding: 10px;
+
+}
+
+.Menu{
+
+    background-color: #562579;
+    height: 100vh;
+    padding: 0px;
+    position: fixed; 
+
+}
+
+.itemMenu{
+
+    padding-top: 100px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    /* padding-top: 10px; */
+
+}
+
+.MenuGamb{
+
+    background-color: blueviolet;
+    height: 100vh;
+    padding: 0px;
+
+}
+
+.cartao{
+
+    background-color: rgb(204, 204, 243);
+    border-radius: 10px;
+    box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.cartao h3{
+
+    text-align: center;
+
+}
+
+.cartao h5{
+
+    text-align: center;
+
+}
+
+.conteudo
+{
+
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 0 rgba(146, 0, 255, 0.2); /*Indeciso se uso Darkgray*/
+
+}
+
+/* .gamb{
+
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, rgba(146, 0, 255, 0.2), rgba(39, 0, 68, 0));
+    padding: 1px;
+
+} */
+
+.joaquim{
+
+    height: 130px;
+
+}
+
+.btnlogin{
+
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.joaquim2{
+    height: 40px;
+}
+#btnlog{
+    cursor: pointer;
+}
+#btnregis{
+    cursor: pointer;
+}
+
+
+.pendente {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff5050;
+    position:absolute; top:68px; right:20px;
+
+}
+
+.andamento {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffce50;
+    position:absolute; top:68px; right:20px;
+
+}
+
+.concluida {
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4bdb6a;
+    position:absolute; top:68px; right:20px;
+
+}
+
+.info{
+
+    display: flex;
+   
+}
+
+.InfoLogin{
+
+    color: white;
+    text-align: center;
+
+}
+
+.TelaGrupo{
+
+    min-height: 100vh;
+    background-color: #C19CF0; 
+    border-radius: 10px;
+
+}
+
+.TelaPerfil{
+
+    height: 25vh;
+    background-color: #C19CF0;
+    padding: 0px;
+    margin: 0px;
+    
+
+    
+}
+
+.IMGpergil{
+
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    background-color: #562579;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 100px;
+    border: solid;
+    border-color: black;
+
+}
+
+.nomePerfil{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+}
+
+.CardPerfil{
+
+    background-color: #562579;
+    color: aliceblue;
+    margin-top: 150px;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    
+
+}
+
+.CardPerfil h3{
+
+    background-color: #C19CF0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+

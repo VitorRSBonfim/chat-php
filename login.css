@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{  /*configurações gerais*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{ /*Alinhamento dos itens ao centro do body e definição de tamanho*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, rgba(146, 0, 255, 0.2), rgba(39, 0, 68, 0));
+}
+
+.container{ /*tamanho do container aonde os formularios estarão listados, alinhamentos e cores*/
+    background-color: whitesmoke;
+    width: 350px;
+    height: 450px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden; /*os conteudos que vazarem para fora do container vão ser escondidos*/
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 darkgray;
+}
+
+form{
+    position: absolute;
+    margin-top: 80px;
+    transition: .5s;
+    width: 300px;
+    height: 400px;
+}
+
+.btnForm{
+    margin-top: 40px;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0 0 7px 0 blueviolet;
+}
+
+.btnForm button{
+    cursor:pointer;
+    background: transparent;
+    border: none;
+    position: relative;
+    padding: 10px 29px;
+}
+
+.corBtn{
+    position: absolute;
+    width: 108px;
+    height: 100%;
+    background: linear-gradient(to right, #5956e9, #a963f8);
+    border-radius: 30px;
+    transition: .3s;
+}
+
+input[type="text"], input[type="password"], input[type="date"] {
+    border: none;
+    margin-top: 25px;
+    border-radius: 60px;
+    padding: 8px 0 8px 35px;
+    outline: none;
+    font-size: 15px;
+    width: 100%;
+}
+
+button[type="submit"] {
+    background: #660fc8;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all .4s;
+    text-transform: uppercase;
+}
+
+button[type="submit"]:hover {
+    opacity: .8;
+}
+
+button[type="submit"]:active {
+    transform: scale(.8);
+}
+
+.divCheck{
+    margin: 25px 0px 0px 5px;
+    width: 80%;
+    font-size: 13px;
+}
+
+#Login{
+    left: 25px;
+}
+
+#Registrar{
+    left: 450px;
+}
+
+.agrupar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i{
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+}
+
+.fa-user{
+    top: 24px;
+}
+
+.fa-lock{
+    top: 83px;
+}
+
+.iconsenha2{
+    top: 142px;
+}
+
+.fa-envelope{
+    top: 83px;
+}
