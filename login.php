@@ -25,7 +25,7 @@
                 <input type="checkbox" name="checkboxLogin">
                 <span>Manter-me Conectado</span>
             </div>
-            <button type="submit" name="btnEnviarLogin" formaction="_logar.php">Entrar</button> <!--Botão enviar-->
+            <button type="submit" name="btnEnviarLogin" formaction="_chat.php">Entrar</button> <!--Botão enviar-->
         </form>
 
         <form action="login.php" method="post" name="frmRegis" id="Registrar">
