@@ -225,7 +225,7 @@ header {
 .chat-pai {
   width: 100%;
   background-color: #F2F2F2;
-  background-image: url('src/global_icons/928283.png');
+  
   background-position: center;
   height: 100vh;
   background-repeat: no-repeat;
@@ -649,7 +649,10 @@ ul {
 
 .pai-btnMostrarAmigos {
   margin: 20px;
+  
 }
+
+
 
 .li-header-amigos p {
   margin-bottom: 0px;
@@ -745,6 +748,12 @@ input[type="file"] {
 
 .menuFop {
   margin-top: 0px;
+}
+
+/* Menu lateral */
+
+.settings_icon {
+  width: 35px;
 }
 
 /*MENU ANTIGO 

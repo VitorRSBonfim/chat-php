@@ -12,7 +12,7 @@
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=send" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=attach_file_add" />
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=send" />
 </head>
 
 <body>
@@ -57,10 +57,11 @@
                             <div class="pai-itens-amigos">
               
                               <div class="pai-btnMostrarAmigos" >
-                                <button style="    border-radius: 2px;
-                                  background-color: azure;
-                                  padding: 5px;" id="btnMostrarAmigos">Amigos</button>
-                                </div>
+                                
+                                  <p style="margin: 0px;"><img id="btnMostrarAmigos" class="settings_icon" src="src/app_icons/settings.png" alt=""></p>
+                                
+
+                              </div>
 
                               <button id="btnToggle" class="btnT">></button>
               
@@ -127,9 +128,7 @@
                                       
                                       <button class="btn-submit" id="btn-submit" >
                                         
-                                          <span class="material-symbols-outlined">
-                                            send
-                                          </span>
+                                          <img src="src/app_icons/send.svg" alt="">
                                         
                                       </button>
 
